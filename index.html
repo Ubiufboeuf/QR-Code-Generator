@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='es'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" href="style.css">
+    <title>QR Code Generator</title>
+  </head>
+  <body id="app">
+    <img id="img-back" src="/assets/bg-illustration.svg" />
+    <main>
+      <div id="img-wrapper">
+        <img src='/assets/logo-qr-generator.svg' />
+      </div>
+      <div id="searchbox">
+        <input id="input" type="text" placeholder="Enter an url" />
+        <button id="btn">QR code</button>
+      </div>
+    </main>
+    <script type="module" src='/main.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.js" integrity="sha512-is1ls2rgwpFZyixqKFEExPHVUUL+pPkBEPw47s/6NDQ4n1m6T/ySeDW3p54jp45z2EJ0RSOgilqee1WhtelXfA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </body>
+</html>
